@@ -1,2 +1,4 @@
 # domainparser
-Analyses HAR file for third-party domains and passes them via the VirusTotal API for analysis
+Searches HAR file for third-party URLs, extracts domains and passes to VirusTotal via API for analysis
+
+Usage: python parsedomain.py [ABSOLUTE PATH OF HAR FILE] [VIRUSTOTAL API KEY]
